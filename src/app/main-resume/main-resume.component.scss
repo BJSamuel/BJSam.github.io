@@ -1,0 +1,93 @@
+$blueColor :#576d7b;
+$paleblack :#f4f4f4;
+label{
+  color: $blueColor;
+  font-size: 25px;
+  font-weight: 700;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 0;
+  hr{
+    color: $paleblack;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+span{
+  a{
+
+      text-decoration: none;
+    color: black;
+
+  }
+
+}
+.card{
+font-family: Century Gothic;
+display: flex;
+flex-direction: column;
+align-self: center;
+justify-content: center;
+margin: 1em auto;
+width: 50rem;
+border: 0;
+.header{
+  padding-left: 1em;
+  padding-top: 15px;
+  background-color:$blueColor;
+  color: #fff;
+  font-family: Century Gothic;
+  height: 5em;
+
+h1{
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  padding-top: 5px;
+  text-align: left;
+}
+}
+.mainContent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  .ConnRight{
+    background-color: $paleblack;
+    width: 35%;
+  }
+  .ConnLeft{
+    background-color: #fff;
+    width: 100-35%;
+    .LeftMain{
+      margin: 25px;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+}
+.workTablw{
+  tr{
+    margin-top: 1em;
+  }
+  th{
+    font-weight: 700;
+    text-align: left;
+  }
+  td{
+    font-size: 15px;
+    ul{
+      li{
+        font-size: 15px;
+      }
+    }
+  }
+  .thDate{
+    width: 10em;
+  }
+  .tdItalicP{
+    font-style: italic;
+    font-size: 12px;
+    text-align: left;
+  }
+}
