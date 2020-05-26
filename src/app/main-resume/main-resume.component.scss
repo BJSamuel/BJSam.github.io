@@ -17,7 +17,6 @@ span{
   a{
 
       text-decoration: none;
-    color: black;
 
   }
 
@@ -90,4 +89,14 @@ h1{
     font-size: 12px;
     text-align: left;
   }
+}
+#ProjectsUl, #OtherLinksUL{
+    li{
+      img{
+        width: 0.5em;
+        height: auto;
+      }
+    
+    }
+  
 }
