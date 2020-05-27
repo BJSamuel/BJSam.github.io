@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MainResumeComponent } from './main-resume/main-resume.component';
+import { RMenuComponent } from './rmenu/rmenu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainResumeComponent
+    MainResumeComponent,
+    RMenuComponent
   ],
   imports: [
     BrowserModule,
