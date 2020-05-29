@@ -129,3 +129,30 @@ h1{
     }
   }
 }
+.endLineColor{
+ margin: 0;
+border: 0;
+height: 7px;
+background: linear-gradient(to right,#7dc57c 0,#7dc57c 16.6%,#1295c9 16.6%,#1295c9 33.2%,#815874 33.2%,#815874 49.8%,#fada58 49.8%,#fada58 66.4%,#e15554 66.4%,#e15554 83%,#ff8000 83%,#ff8000 99.6%);
+}
+@media all and (max-width:900px) {
+  .card{
+    width: 30rem !important;
+.mainContent{
+  flex-direction: column !important;
+  .ConnLeft{
+    width: 100% !important;
+  }
+  .ConnRight{
+    width: 100% !important;
+  }
+}
+}
+#RSoftwaresTB{
+  tr{
+    td:nth-child(even){
+      padding-left: 9em !important;
+    }
+  }
+}
+}
